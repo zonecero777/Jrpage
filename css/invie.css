@@ -1,0 +1,493 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?x2605b');
+  src:  url('../fonts/icomoon.eot?x2605b#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?x2605b') format('truetype'),
+    url('../fonts/icomoon.woff?x2605b') format('woff'),
+    url('../fonts/icomoon.svg?x2605b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-enveloper:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-close:before {
+  content: "\ea0d";
+}
+
+
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+table
+{
+  width: 100%;
+  margin-bottom: 50px;
+}
+th
+{
+  background: #273b47;
+  color: white;
+}
+th
+{
+  padding: 10px 20px;
+  text-align: left;
+}
+td
+{
+  padding: 20px;
+}
+table, td, th
+{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+.contenedor {
+  margin: auto;
+  max-width: 800px;
+  position: relative;
+}
+.background
+{
+  background-image:url(../images/background.png);
+  background-size: cover;
+}
+.button {
+  border-radius: 12px;
+  border: none;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(top,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 7px 12px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+.titulo span
+{
+  text-decoration: underline;
+}
+.title-a {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.guitarras {
+  color: #1F313C;
+}
+
+.guitarras h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+
+.portada {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  height: 500px;
+}
+
+.portada button {
+  margin-bottom: 70px;
+}
+
+
+.menu {
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.menu a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.logotipo {
+  display: inline-block;
+  margin-left: 0;
+}
+.guitarra {
+  margin: 70px 10px 40px 10px;
+  padding: 10px;
+  /*overflow: hidden;*/
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+.guitarra ol {
+  padding: 0;
+}
+.guitarra.b
+{
+  height: 190px
+}
+
+.derecha {
+  float: right;
+  position: relative;
+  top: -127px;
+}
+
+.izquierda {
+  float: left;
+  position: relative;
+}
+
+.contenedor-guitarra-a {
+  padding-left: 20px;
+}
+.contenedor-guitarra-b {
+  margin-left: 370px;
+  position: relative;
+  bottom: 70px;
+}
+
+.header {
+  position: relative;
+}
+
+
+.footer {
+  background: #273b47;
+  padding: 50px 10px;
+}
+
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.formulario {
+  display: flex;
+  width: 400px;
+  color: white;
+}
+
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
+}
+.col2 .button {
+  margin-top: 15px;
+}
+
+.intereses label {
+  font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+
+
+.sexo {
+  margin-top: 10px;
+}
+
+.burguer-button{
+  color:white;
+  width: 40px;
+  text-align: center;
+  display: none;
+  background: #395667;
+  border-radius: 50%;
+  line-height: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 3;
+}
+.video-demo {
+  border:5px solid #3c5b6e;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+.video-demo-contenedor {
+  display: flex;
+  justify-content:center;
+}
+
+@media screen and (max-width: 800px){
+  .tabla{
+    margin: 50px 20px;
+  }
+  .tabla .contenedor{
+    border: 1px solid #273b47;
+    overflow: auto;
+  }
+  .titulo{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .title-a{
+    font-size: 18px;
+  }
+  .portada{
+    height: auto;
+  }
+  .portada .button{
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  /*guitarras*/
+  .guitarras{
+    text-align: center;
+  }
+  .derecha, .izquierda{
+    float: none;
+    position:static;
+  }
+  .title-b
+  {
+    margin: 0px;
+  }
+  .guitarras li{
+    list-style: none;
+  }
+  .guitarra.b{
+    height: auto;
+  }
+  .contenedor-guitarra-b{
+    position: static;
+    margin: 0px;
+  }
+  .contenedor-guitarra-a{
+    padding: 0;
+  }
+    /*guitarras*/
+}
+@media screen and (max-width: 767px){
+  /*footer*/
+  .footer .contenedor{
+    display: block;
+  }
+  .contacto{
+    margin: 0 auto;
+  }
+  .formulario{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  .intereses label{
+    display: block;
+    font-size: 16px;
+  }
+  .col1{
+    margin: 0;
+  }
+  input[type="text"],
+  input[type="email"]{
+    font-size: 16px;
+    padding: 5px;
+  }
+  textarea{
+    width: 100%;
+  }
+  input[type="radio"],
+  input[type="checkbox"]{
+    zoom:1.7;
+  }
+  /*footer*/
+}
+
+@media screen and (max-width: 650px){
+  .burguer-button{
+    display: inline-block;
+    left: 10px;
+    top: 10px;
+  }
+  .header{
+    text-align: center;
+  }
+  .logotipo{
+    margin: 0;
+  }
+  .menu
+  {
+    display: block;
+    position: static;
+  }
+  .menu ul{
+    padding: 0;
+  }
+  .menu li:first-child{
+    margin: 0;
+  }
+}
+@media screen and (max-width: 500px){
+  /*portada*/
+  .portada .button {
+    display: block;
+  }
+  .col2 {
+    align-items:stretch;
+  }
+  .precios .header .logotipo {
+    margin: 50px 0;
+  }
+  .guitarra {
+    margin-top: 25px;
+  }
+  .portada .contenedor{
+    position: static;
+  }
+  .header .contenedor{
+    position: static;
+  }
+  .header{
+    position: static;
+  }
+  .menu{
+    /*border: 1px solid rgb(255, 60, 88);*/
+    display: flex;
+    align-items: center;
+    background: rgba(255, 60, 88, .8);
+    position: fixed;
+    left: -100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: .3s;
+    z-index: 2;
+    width: 100%;
+  }
+  .menu.active{
+    left: 0%;
+  }
+  .menu ul{
+    flex: 1;
+  }
+  .menu li{
+    display: block;
+    margin: 0;
+    padding: 8px 0;
+    border-bottom: 1px solid white;
+  }
+  .menu li::before{
+    display: none;
+  }
+  .menu li:first-child{
+    border-top: 1px solid white;
+  }
+  .portada{
+    text-align: center;
+  }
+  .portada .contenedor{
+    position: static;
+  }
+  .titulo{
+    font-size: 30px;
+  }
+  .title{
+    font-size: 16px;
+  }
+  /*portada>*/
+
+  /*guitarras*/
+  .guitarra img{
+    width: 200px;
+  }
+  .title-b{
+    font-size: 30px;
+  }
+  /*guitarras*/
+}
+.video-responsive-contenedor{
+  position: relative;
+  padding-top: 56.25%;
+}
+.video-responsive-src{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
